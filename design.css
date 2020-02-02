@@ -1,0 +1,129 @@
+body{
+  background: linear-gradient(to right, red, purple)
+}
+
+#Inpt{
+  position: absolute;
+  right: 55%;
+  bottom: 70%;
+  width: 150px;
+  height: 25px;
+}
+
+#Btn{
+  position: absolute;
+  right: 47%;
+  bottom: 70.5%;
+  background: linear-gradient(to left, #4396ba, #6610ad);
+  border-radius: 25px;
+  border: 0px solid white;
+  width: 75px;
+  height: 25px;
+  color: white;
+  cursor: pointer;
+}
+
+#Btn2{
+  position: absolute;
+  right:40%;
+  bottom: 70.5%;
+  background: linear-gradient(to left, #4396ba, #6610ad);
+  border-radius: 25px;
+  border: 0px solid white;
+  width: 75px;
+  height: 25px;
+  color: white;
+  cursor: pointer;
+}
+
+#words{
+  position: absolute;
+  left: 500px;
+  top: 250px;
+  z-index: 10;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+#Btn:hover{
+  background: black;
+  color: white;
+
+}
+
+#Btn2:hover{
+  background: black;
+  color: white;
+
+}
+
+#Title{
+  position: absolute;
+  left: 475px;
+  bottom: 560px;
+  color: white;
+  font-family: sans-serif;
+}
+
+#SubTitle{
+  position: absolute;
+  left: 455px;
+  top: 55px;
+  font-size: 20px;
+  color: white;
+  font-family: sans-serif;
+}
+
+.Background_Words{
+  position: absolute;
+  left: 33.5%;
+  top: 35%;
+  width: 350px;
+  height: 100px;
+  background:linear-gradient(to left, #4396ba, #6610ad);
+  border-radius: 25px;
+  z-index: 9;
+}
+
+.Background_Logs{
+  position: absolute;
+  left: 33.5%;
+  top: 55%;
+  width: 350px;
+  height: 225px;
+  background:linear-gradient(to left, #4396ba, #6610ad);
+  border-radius: 25px;
+  z-index: 9;
+}
+
+.Background_Logs .logs{
+  position: absolute;
+  left: 150px;
+  top: 9%;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+.Background_Logs .link1{
+  position: absolute;
+  left: 35px;
+  top: 35%;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+.Background_Logs .link2{
+  position: absolute;
+  left: 35px;
+  top: 55%;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+.Background_Logs .link3{
+  position: absolute;
+  left: 35px;
+  top: 73%;
+  font-size: 12px;
+  font-family: sans-serif;
+}
